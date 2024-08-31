@@ -8,8 +8,8 @@ function App() {
     <div
       className="
         min-h-screen bg-cover bg-center bg-no-repeat bg-fixed
-        bg-[url('/src/assets/bg_mobile.jpg')] 
-        md:bg-[url('/src/assets/bg.jpg')]"
+        bg-[url('/assets/bg_mobile.jpg')] 
+        md:bg-[url('/assets/bg.jpg')]"
     >
       <Header />
       <Description />
