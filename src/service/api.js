@@ -1,5 +1,5 @@
 const sendLeadInformation = async (leadData) => {
-  const emailParam = "alexis94340@gmail.com"; // Remplacez par une adresse email valide
+  const emailParam = "alexis94340@gmail.com";
 
   try {
     const response = await fetch(

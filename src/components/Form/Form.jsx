@@ -10,9 +10,9 @@ const Form = () => {
   const [step, setStep] = useState(1);
   const [typeModel, setTypeModel] = useState("");
   const [purchaseOrLeasing, setPurchaseOrLeasing] = useState("");
-  const [vehicleType, setVehicleType] = useState(""); // pour "Un achat"
-  const [leasingDuration, setLeasingDuration] = useState(""); // pour "Un leasing"
-  const [contactInfo, setContactInfo] = useState({}); // pour les coordonnées
+  const [vehicleType, setVehicleType] = useState("");
+  const [leasingDuration, setLeasingDuration] = useState("");
+  const [contactInfo, setContactInfo] = useState({}); 
 
   const handleOptionSelect = (value) => {
     if (step === 1) {
@@ -42,7 +42,6 @@ const Form = () => {
 
   const handleContactInfoSubmit = (info) => {
     setContactInfo(info);
-    // Vous pouvez maintenant envoyer `contactInfo` au serveur ou utiliser ailleurs
     console.log("Form Submitted with contact info:", info);
   };
 

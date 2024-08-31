@@ -17,7 +17,7 @@ const FormStep4Coordonnees = ({
   const [cityName, setCityName] = useState("");
   const [showConfirmation, setShowConfirmation] = useState(false);
 
-  // Format phone number in E.164 format
+
   const formatPhoneNumberE164 = (phone) => {
     let formattedPhone = phone.replace(/\s+/g, "");
     if (formattedPhone.startsWith("0")) {
@@ -44,7 +44,7 @@ const FormStep4Coordonnees = ({
               type_modele: typeModel || "Non spécifié",
               achat_ou_leasing: purchaseOrLeasing || "Non spécifié",
               vehicule_neuf_ou_location: vehicleType || "Non spécifié",
-              duree_leasing: leasingDuration || "Non spécifiée", // Duration is already formatted
+              duree_leasing: leasingDuration || "Non spécifiée", 
               nom: leadData.nom || "Non spécifié",
               prenom: leadData.prenom || "Non spécifié",
               ville: leadData.ville || "Non spécifiée",

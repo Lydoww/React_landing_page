@@ -20,11 +20,7 @@ const FormStep1 = ({ onOptionSelect }) => {
               key={option}
               type="button"
               value={option}
-              className={`input-style-form ${
-                selectedOption === option
-                  ? "bg-blue-500 text-white border-blue-500"
-                  : "bg-gray-200 text-gray-800 border-gray-300"
-              } cursor-pointer`}
+              className="input-style-form"
               onClick={() => handleOptionClick(option)}
             />
           )
